@@ -21,13 +21,13 @@ function Header() {
       </div>
 
       <div className="border-l-2 border-blue-300 grid grid-rows-nav">
-        <div className="hover:bg-blue-100 cursor-pointer py-4 px-6 grid justify-center content-end hover:text-blue-400">
+        <div className="hover:bg-blue-100 cursor-pointer py-4 px-6 grid justify-center content-end hover:text-blue-400 hover:content-center transition">
           P
         </div>
-        <div className="border-y-2 border-blue-300 hover:bg-blue-100 cursor-pointer py-4 px-6 grid justify-center content-center hover:text-blue-400">
+        <div className="border-y-2 border-blue-300 py-4 px-6 grid justify-center content-center ">
           I
         </div>
-        <div className="hover:bg-blue-100 cursor-pointer py-4 px-6 grid justify-center hover:text-blue-400">
+        <div className="hover:bg-blue-100 cursor-pointer py-4 px-6 grid justify-center hover:text-blue-400 hover:content-center transition">
           N
         </div>
       </div>
