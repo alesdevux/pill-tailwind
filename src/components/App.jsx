@@ -1,9 +1,11 @@
+import { Header } from './Header'
+
 function App() {
   return (
     <>
-      <p className="text-pink-400">Hola</p>
+      <Header />
     </>
   )
 }
 
-export default App
+export { App }
