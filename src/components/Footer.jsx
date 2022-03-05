@@ -5,7 +5,7 @@ function Footer() {
         <p>💚 Desarrollado con amor por
           <a 
             href="https://github.com/aleswebgit"
-            alt="Ales GitHub"
+            title="Ales GitHub"
             target="_blank"
             className="text-green-500 hover:text-green-700 before:content-['_'] after:content-['_']"
           >
@@ -15,7 +15,7 @@ function Footer() {
         <p>🧡 Gracias a
           <a 
             href="https://factoriaf5.org/" 
-            alt="Factoria F5 web"
+            title="Factoria F5 web"
             target="_blank"
             className="text-orange-500 hover:text-orange-700 before:content-['_'] after:content-['_']"
           >
