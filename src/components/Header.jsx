@@ -24,7 +24,7 @@ function Header() {
         <div className="hover:bg-blue-100 cursor-pointer py-4 px-6 grid justify-center content-end hover:text-blue-400 hover:content-center transition">
           P
         </div>
-        <div className="border-y-2 border-blue-300 py-4 px-6 grid justify-center content-center ">
+        <div className="border-y-2 border-blue-300 py-4 px-6 grid justify-center content-center cursor-default">
           I
         </div>
         <div className="hover:bg-blue-100 cursor-pointer py-4 px-6 grid justify-center hover:text-blue-400 hover:content-center transition">

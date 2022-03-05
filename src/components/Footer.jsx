@@ -11,6 +11,7 @@ function Footer() {
           >
             Ales
           </a>
+          usando React y Tailwind CSS
         </p>
         <p>🧡 Gracias a
           <a 
