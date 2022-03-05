@@ -2,7 +2,7 @@ import {MenuItem} from './MenuItem'
 
 function Header() {
   return (
-    <header className="border-b-2">
+    <header className="border-b-2 fixed w-screen">
       <div className="flex gap-4 justify-between personal-container">
         <div className="whitespace-nowrap my-auto">
           <h3 className="text-blue-400 font-black text-2xl">Tailwind CSS</h3>
