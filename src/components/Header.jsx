@@ -2,22 +2,34 @@ import {MenuItem} from './MenuItem'
 
 function Header() {
   return (
-    <header className="border-b-2 fixed w-screen">
-      <div className="flex gap-4 justify-between personal-container">
-        <div className="whitespace-nowrap my-auto">
+    <header className="border-r-2 border-blue-300 w-96 fixed h-screen z-20 bg-white flex">
+      <div className="flex whitespace-nowrap flex-col w-full">
+        <div className="p-8">
           <h3 className="text-blue-400 font-black text-2xl">Tailwind CSS</h3>
-          <h4 className="text-blue-400 tracking-wider text-center">Learn with Ales</h4>
+          <h4 className="text-blue-400 tracking-wider">Learn with Ales</h4>
         </div>
 
-        <nav className="my-auto">
-          <ul className="flex flex-wrap gap-2 justify-end">
-            <MenuItem text="Intro" />
-            <MenuItem text="Sobre Tailwind CSS" />
-            <MenuItem text="Desventajas y Ventajas" />
-            <MenuItem text="Aprender a documentarse" />
-            <MenuItem text="Practica" />
+        <nav className="my-auto pb-32">
+          <ul>
+            <MenuItem id="1" text="Intro" />
+            <MenuItem id="2" text="Sobre Tailwind CSS" />
+            <MenuItem id="3" text="Desventajas y Ventajas" />
+            <MenuItem id="4" text="Aprender a documentarse" />
+            <MenuItem id="5" text="Practica" />
           </ul>
         </nav>
+      </div>
+
+      <div className="border-l-2 border-blue-300 grid grid-rows-nav">
+        <div className="hover:bg-blue-100 cursor-pointer py-4 px-6 grid justify-center content-end hover:text-blue-400">
+          P
+        </div>
+        <div className="border-y-2 border-blue-300 hover:bg-blue-100 cursor-pointer py-4 px-6 grid justify-center content-center hover:text-blue-400">
+          I
+        </div>
+        <div className="hover:bg-blue-100 cursor-pointer py-4 px-6 grid justify-center hover:text-blue-400">
+          N
+        </div>
       </div>
     </header>
   )

@@ -1,11 +1,7 @@
 function MenuItem(props) {
   return (
-    <li className="justify-self-end">
-      <a href="#"
-        className="border-2 px-4 py-1 block hover:bg-blue-400 hover:border-blue-400 hover:text-white"
-      >
+    <li className="justify-self-end px-8 py-2 block cursor-pointer hover:text-blue-400 hover:bg-blue-100 hover:font-bold">
         {props.text}
-      </a>
     </li>
   )
 }

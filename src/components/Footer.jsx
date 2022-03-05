@@ -1,6 +1,6 @@
 function Footer() {
   return (
-    <footer className="fixed bottom-0 border-t-2 w-screen p-2">
+    <footer className="fixed bottom-0 border-t-2 border-blue-300 z-10 bg-white pl-96 w-screen">
       <div className="personal-container flex justify-between flex-wrap gap-4">
         <p>💚 Desarrollado con amor por
           <a 
