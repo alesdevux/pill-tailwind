@@ -1,15 +1,10 @@
 import { MenuItem } from './MenuItem'
 
-function Header({ page, setPage }) {
-
-  const sections = [
-    { key: 'page-1', title: 'Intro', archive: 'Intro', svg: 'info' },
-    { key: 'page-2', title: 'Sobre Tailwind CSS', archive: 'SobreTailwind', svg: 'about' },
-    { key: 'page-3', title: 'Desventajas y Ventajas', archive: 'ProsContras', svg: 'check' },
-    { key: 'page-4', title: 'Aprender a documentarse', archive: 'Documentarse', svg: 'doc' },
-    { key: 'page-5', title: 'Practica', archive: 'Practica', svg: 'practice' },
-  ]
-
+function Header({ 
+  page, 
+  setPage, 
+  sections 
+}) {
   return (
     <header className="border-r-2 border-blue-300 w-96 fixed h-screen z-20 bg-white flex">
       <div className="flex whitespace-nowrap flex-col w-full">
