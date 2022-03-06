@@ -1,8 +1,6 @@
-import React, { useState } from 'react'
 import { MenuItem } from './MenuItem'
 
-function Header() {
-  const [page, setPage] = useState('page-1')
+function Header({ page, setPage }) {
 
   const sections = [
     { key: 'page-1', title: 'Intro', archive: 'Intro', svg: 'info' },
