@@ -13,11 +13,32 @@ function App() {
   const [page, setPage] = useState('page-1')
 
   const sections = [
-    { key: 'page-1', title: 'Intro', archive: 'Intro', svg: 'info' },
-    { key: 'page-2', title: 'Sobre Tailwind CSS', archive: 'SobreTailwind', svg: 'about' },
-    { key: 'page-3', title: 'Desventajas y Ventajas', archive: 'ProsContras', svg: 'check' },
-    { key: 'page-4', title: 'Aprender a documentarse', archive: 'Documentarse', svg: 'doc' },
-    { key: 'page-5', title: 'Practica', archive: 'Practica', svg: 'practice' },
+    { 
+      key: 'page-1', 
+      title: 'Introducción', 
+      archive: 'Intro',
+      descripion: 'Introducción a la pildora',
+    }, { 
+      key: 'page-2', 
+      title: 'Sobre Tailwind CSS', 
+      archive: 'SobreTailwind',
+      descripion: 'Qué es Tailwind CSS',
+    }, { 
+      key: 'page-3', 
+      title: 'Desventajas y Ventajas', 
+      archive: 'ProsContras',
+      descripion: 'Pros y contras de Tailwind CSS y batalla contra Bootstrap',
+    }, { 
+      key: 'page-4', 
+      title: 'Aprender a documentarse', 
+      archive: 'Documentarse',
+      descripion: 'La importancia de aprender a leer la documentación',
+    }, { 
+      key: 'page-5', 
+      title: 'Practica', 
+      archive: 'Practica',
+      descripion: 'Hora de practicar con ese maravilloso framework',
+    },
   ]
   const section = sections.find(section => section.key === page)
 
@@ -31,6 +52,7 @@ function App() {
       <Main
         page={page}
         title={section.title}
+        descripion={section.descripion}
       >
         {section.archive === 'Intro' ? <Intro /> : ''}
         {section.archive === 'SobreTailwind' ? <SobreTailwind /> : ''}
