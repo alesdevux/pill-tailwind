@@ -1,6 +1,12 @@
+import { SlideCard } from '../components/SlideCard'
+
 function Intro() {
   return (
-    <h2>Hola desde Intro</h2>
+    <>
+      <SlideCard 
+        title="Qué haremos en esa pildora?">
+      </SlideCard>
+    </>
   )
 }
 

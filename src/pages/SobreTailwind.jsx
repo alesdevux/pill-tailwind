@@ -1,6 +1,11 @@
+import { SlideCard } from '../components/SlideCard'
+
 function SobreTailwind() {
   return (
-    <h2>Hola desde Sobre Tailwind CSS</h2>
+    <>
+      <SlideCard title="Qué es Tailwind?">
+      </SlideCard>
+    </>
   )
 }
 

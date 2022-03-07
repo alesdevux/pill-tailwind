@@ -1,6 +1,12 @@
+import { SlideCard } from '../components/SlideCard'
+
 function Practica() {
   return (
-    <h2>Hola desde practica</h2>
+    <>
+      <SlideCard
+        title="Practicar para divertirse e interiorizar">
+      </SlideCard>
+    </>
   )
 }
 

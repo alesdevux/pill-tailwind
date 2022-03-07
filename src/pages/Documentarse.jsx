@@ -1,6 +1,12 @@
+import { SlideCard } from '../components/SlideCard'
+
 function Documentarse() {
   return (
-    <h2>Hola desde aprender a documentarse</h2>
+    <>
+      <SlideCard 
+        title="La importancia de aprender a leer documentación">
+      </SlideCard>
+    </>
   )
 }
 
