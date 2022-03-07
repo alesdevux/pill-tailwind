@@ -15,7 +15,7 @@ function App() {
   const sections = [
     { 
       key: 'page-1', 
-      title: 'Introducción', 
+      title: 'Bienvenida', 
       archive: 'Intro',
       descripion: 'Introducción a la pildora',
     }, { 
