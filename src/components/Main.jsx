@@ -10,7 +10,7 @@ function Main({
           <h1 className="text-2xl font-black text-blue-400">{title}</h1>
           <p className="text-blue-400">{descripion}</p>
         </div>
-        <section className="flex flex-1 h-full gap-4 px-8 overflow-x-auto snap-x snap-mandatory ml-96 container-snap">
+        <section className="flex flex-1 h-full gap-8 px-8 overflow-x-auto snap-x snap-mandatory ml-96 container-snap">
           { children }
         </section>
       </div>

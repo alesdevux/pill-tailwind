@@ -3,14 +3,11 @@ import { SlideCard } from '../components/SlideCard'
 function ProsContras() {
   return (
     <>
-      <SlideCard>
-        Hola 1
+      <SlideCard title="Tailwind VS Bootstrap">
       </SlideCard>
-      <SlideCard>
-        Hola 2
+      <SlideCard title="Desventajas">
       </SlideCard>
-      <SlideCard>
-        Hola 3
+      <SlideCard title="Ventajas">
       </SlideCard>
     </>
   )
