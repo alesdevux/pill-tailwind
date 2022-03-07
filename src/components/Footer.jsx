@@ -2,7 +2,7 @@ import { TextLink } from './TextLink'
 
 function Footer() {
   return (
-    <footer className="fixed bottom-0 z-10 w-screen bg-white border-t-2 border-blue-300 pl-96">
+    <footer className="fixed bottom-0 z-10 w-screen bg-white border-t-2 border-blue-300 pl-80">
       <div className="flex flex-wrap justify-between gap-4 personal-container">
         <p>💚 Desarrollado con amor por
           <TextLink 
@@ -18,7 +18,7 @@ function Footer() {
           <TextLink 
             href="https://factoriaf5.org/"
             title="Factoria F5 web"
-            color="orange"
+            color="red"
           >
             Factoria F5
           </TextLink>
