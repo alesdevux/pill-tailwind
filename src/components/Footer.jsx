@@ -1,27 +1,27 @@
+import { TextLink } from './TextLink'
+
 function Footer() {
   return (
-    <footer className="fixed bottom-0 border-t-2 border-blue-300 z-10 bg-white pl-96 w-screen">
-      <div className="personal-container flex justify-between flex-wrap gap-4">
+    <footer className="fixed bottom-0 z-10 w-screen bg-white border-t-2 border-blue-300 pl-96">
+      <div className="flex flex-wrap justify-between gap-4 personal-container">
         <p>💚 Desarrollado con amor por
-          <a 
+          <TextLink 
             href="https://github.com/aleswebgit"
             title="Ales GitHub"
-            target="_blank"
-            className="text-green-500 hover:text-green-700 before:content-['_'] after:content-['_']"
+            color="green"
           >
             Ales
-          </a>
+          </TextLink>
           usando React y Tailwind CSS
         </p>
         <p>🧡 Gracias a
-          <a 
-            href="https://factoriaf5.org/" 
+          <TextLink 
+            href="https://factoriaf5.org/"
             title="Factoria F5 web"
-            target="_blank"
-            className="text-orange-500 hover:text-orange-700 before:content-['_'] after:content-['_']"
+            color="orange"
           >
             Factoria F5
-          </a>
+          </TextLink>
           por motivar a hacer esa pildora
         </p>
       </div>
