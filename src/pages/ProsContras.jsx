@@ -1,6 +1,18 @@
+import { SlideCard } from '../components/SlideCard'
+
 function ProsContras() {
   return (
-    <h2>Hola desde Desventajas y Ventajas</h2>
+    <>
+      <SlideCard>
+        Hola 1
+      </SlideCard>
+      <SlideCard>
+        Hola 2
+      </SlideCard>
+      <SlideCard>
+        Hola 3
+      </SlideCard>
+    </>
   )
 }
 
