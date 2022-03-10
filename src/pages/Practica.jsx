@@ -41,7 +41,16 @@ function Practica() {
           Vamos, que tu puedes! 💪
         </CardP>
       </SlideCard>
-      <SlideCard title="Reto 1: Infrormación de perfil">
+      <SlideCard title="Reto 1: Infrormación de perfil" cols={2}>
+        <div>
+          <img src="src\assets\retos\reto1.png" alt="Reto 1" />
+        </div>
+        <TextLink 
+          href="https://play.tailwindcss.com/R3VDz3yJyW"
+          title="Base para añadir Tailwind CSS al perfil"
+        >
+          Ir al código base para añadir Tailwind CSS al perfil
+        </TextLink>
       </SlideCard>
       <SlideCard title="Reto 2: Catalogo de tienda">
       </SlideCard>

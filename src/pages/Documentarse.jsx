@@ -4,7 +4,9 @@ function Documentarse() {
   return (
     <>
       <SlideCard 
-        title="La importancia de aprender a leer documentación">
+        title="La importancia de aprender a leer documentación"
+        cols={2}
+      >
       </SlideCard>
     </>
   )

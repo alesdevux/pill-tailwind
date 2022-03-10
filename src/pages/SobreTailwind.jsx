@@ -4,7 +4,7 @@ import { CardP } from '../components/CardP'
 function SobreTailwind() {
   return (
     <>
-      <SlideCard title="Qué es Tailwind?">
+      <SlideCard title="Qué es Tailwind?" cols={2}>
         <CardP>
           Tailwind es un Freamwork (una biblioteca) de estilos CSS que nos permite crear
           estilos de diseño para nuestras páginas web.

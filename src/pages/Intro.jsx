@@ -6,7 +6,7 @@ import { CardItemList } from '../components/CardItemList'
 function Intro() {
   return (
     <>
-      <SlideCard title="Hola 👋🏻">
+      <SlideCard title="Hola 👋🏻" cols={2}>
         <div>
           <CardP>
             Soy Ales. Antes del desarrollo me interesó el diseño grafico. Hasta que descubri el diseño web y se me abrio un mundo de posibilidades. Desde entonce me tira más el código que el diseño, pero me fascinan cuando se fusionan ambas cosas.
@@ -20,6 +20,9 @@ function Intro() {
           <CardP>
             En esta página, te explico un poco su contexto cómo funciona el framework, y te muestro algunos ejemplos para que puedas practicar.
           </CardP>
+        </div>
+        <div>
+          <img src="src\assets\emojis\feliz.png" alt="Imagen de unicornio feliz"/>
         </div>
       </SlideCard>
       <SlideCard title="Qué haremos en esa pildora?">
