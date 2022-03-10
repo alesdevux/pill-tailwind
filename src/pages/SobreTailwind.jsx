@@ -1,5 +1,6 @@
 import { SlideCard } from '../components/SlideCard'
 import { CardP } from '../components/CardP'
+import { CardImg } from '../components/CardImg'
 
 function SobreTailwind() {
   return (
@@ -16,6 +17,7 @@ function SobreTailwind() {
             En el caso de Tailwind, se vasa en Utility-First
           </CardP>
         </div>
+        <CardImg src="src\assets\tailwind.png" alt="Tailwind" />
       </SlideCard>
       <SlideCard title="Utility-First" cols={2}>
         <div>
@@ -26,12 +28,10 @@ function SobreTailwind() {
             Es decir, si queremos una utilidad como añadir un margen a un elemento, no vamos a tener que crear una clase para eso.
           </CardP>
           <CardP>
-            En vez de eso, Tailwind ya nos tiene prepparada una clase de utilidad que ya está preparada para eso.
+            En vez de eso, Tailwind ya nos tiene preparada una clase de utilidad para eso.
           </CardP>
         </div>
-        <div>
-          <img src="src\assets\support\font-size.png" alt="Ejemplo utility-first" />
-        </div>
+        <CardImg src="src\assets\support\font-size.png" alt="Ejemplo utility-first" />
       </SlideCard>
     </>
   )

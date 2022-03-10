@@ -1,17 +1,23 @@
 import { SlideCard } from '../components/SlideCard'
 import { CardP } from '../components/CardP'
 import { TextLink } from '../components/TextLink'
+import { CardImg } from '../components/CardImg'
+import { CardList } from '../components/CardList'
+import { CardItemList } from '../components/CardItemList'
 
 function Practica() {
   return (
     <>
-      <SlideCard title="Practicar para divertirse e interiorizar">
-        <CardP>
-          Para aprender e interiorizar, es interesante ponerse pequeños o grandes retos que nos motiven a investigar y a recordar lo que hemos aprendido.
-        </CardP>
-        <CardP>
-          Es por eso que he preparado 3 retos.
-        </CardP>
+      <SlideCard title="Practicar para divertirse e interiorizar" cols={2}>
+        <div>
+          <CardP>
+            Para aprender e interiorizar, es interesante ponerse pequeños o grandes retos que nos motiven a investigar y a recordar lo que hemos aprendido.
+          </CardP>
+          <CardP>
+            Es por eso que he preparado 3 retos.
+          </CardP>
+        </div>
+        <CardImg src="src\assets\emojis\reto.png" alt="unicornio con cara de desafio" />
       </SlideCard>
       <SlideCard title="Nuevos retos para ti!">
         <CardP>
@@ -42,31 +48,24 @@ function Practica() {
         </CardP>
       </SlideCard>
       <SlideCard title="Reto 1: Infrormación de perfil" cols={2}>
-        <div>
-          <img src="src\assets\retos\reto1.png" alt="Reto 1" />
-        </div>
         <TextLink 
           href="https://play.tailwindcss.com/R3VDz3yJyW"
           title="Base para añadir Tailwind CSS al perfil"
         >
           Ir al código base para añadir Tailwind CSS al perfil
         </TextLink>
+        <CardImg src="src\assets\retos\reto1.png" alt="Reto 1" />
       </SlideCard>
-      <SlideCard title="Reto 2: Catalogo de tienda" cols={2}>
-        <div className="h-2/4">
-          <img className="h-full" src="src\assets\retos\reto2.png" alt="Reto 2" />
-        </div>
+      <SlideCard title="Reto 2: Vista de producto" cols={2}>
         <TextLink
           href="https://play.tailwindcss.com/u4faeo35LF"
           title="Código para estilizar el producto"
         >
           Ir al código base para añadir Tailwind CSS al producto
         </TextLink>
+        <CardImg src="src\assets\retos\reto2.png" alt="Reto 2" />
       </SlideCard>
       <SlideCard title="Reto 3: Vista de producto">
-        <div className="h-2/4">
-          <img className="h-full" src="src\assets\retos\reto3.png" alt="Reto 3" />
-        </div>
         <TextLink
           href="https://play.tailwindcss.com/b2LEsD2yQm"
           title="Código para añadir Tailwind CSS a la vista de producto"
