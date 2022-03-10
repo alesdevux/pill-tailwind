@@ -29,6 +29,10 @@ function Intro() {
         <CardList>
           <CardItemList>Aprender que es Tailwind CSS</CardItemList>
           <CardItemList>Cuando escoger Tailwind, otros Framworks o CSS puro</CardItemList>
+          <CardItemList>Utility-First, en que consiste?</CardItemList>
+          <CardItemList>La batalla esperada Tailwind vs. Bootstrap</CardItemList>
+          <CardItemList>Diferentes formas de instalación</CardItemList>
+          <CardItemList>Aprender a leer la documentación</CardItemList>
         </CardList>
       </SlideCard>
     </>

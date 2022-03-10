@@ -1,6 +1,6 @@
 function CardList({ children }) {
   return (
-    <ul>
+    <ul className="pl-5 list-disc">
       { children }
     </ul>
   )

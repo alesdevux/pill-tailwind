@@ -52,9 +52,43 @@ function Practica() {
           Ir al código base para añadir Tailwind CSS al perfil
         </TextLink>
       </SlideCard>
-      <SlideCard title="Reto 2: Catalogo de tienda">
+      <SlideCard title="Reto 2: Catalogo de tienda" cols={2}>
+        <div className="h-2/4">
+          <img className="h-full" src="src\assets\retos\reto2.png" alt="Reto 2" />
+        </div>
+        <TextLink
+          href="https://play.tailwindcss.com/u4faeo35LF"
+          title="Código para estilizar el producto"
+        >
+          Ir al código base para añadir Tailwind CSS al producto
+        </TextLink>
       </SlideCard>
       <SlideCard title="Reto 3: Vista de producto">
+        <div className="h-2/4">
+          <img className="h-full" src="src\assets\retos\reto3.png" alt="Reto 3" />
+        </div>
+        <TextLink
+          href="https://play.tailwindcss.com/b2LEsD2yQm"
+          title="Código para añadir Tailwind CSS a la vista de producto"
+        >
+          Ir al código base para añadir Tailwind CSS a la vista de producto
+        </TextLink>
+      </SlideCard>
+      <SlideCard title="Felicidades" cols={2}>
+        <div>
+          <CardP>
+            ¡Ya has completado todos los retos!
+          </CardP>
+          <CardP>
+            ¡Felicidades!
+          </CardP>
+          <CardP>
+            ¡Ya has hecho tus primeros pasos con Tailwind!
+          </CardP>
+        </div>
+        <div>
+          <img src="src\assets\emojis\star.png" alt="Unicornio celebrando" />
+        </div>
       </SlideCard>
     </>
   )

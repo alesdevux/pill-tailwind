@@ -1,6 +1,6 @@
 function CardItemList({ children }) {
   return (
-    <li className="text-xs md:text-base lg:text-lg decoration-slice">
+    <li className="text-xs md:text-base lg:text-lg">
       { children }
     </li>
   )
