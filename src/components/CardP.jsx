@@ -1,6 +1,7 @@
-function CardP({ children }) {
+function CardP({ children, size = 'text-xs' }) {
+  
   return (
-    <p className="py-2 text-xs md:text-base lg:text-lg">
+    <p className={`py-2 ${size} md:text-base lg:text-lg`}>
       {children}
     </p>
   )

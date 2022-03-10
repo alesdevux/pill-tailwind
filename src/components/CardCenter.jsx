@@ -11,7 +11,7 @@ function CardCenter({ children, cols }) {
   
   return (
     // <div className="grid content-center h-full overflow-y-auto">
-    <div className={`grid content-center h-full overflow-y-auto ${colsGrid}`}>
+    <div className={`grid content-center h-full overflow-y-auto ${colsGrid} gap-4`}>
       { children }
     </div>
   )
