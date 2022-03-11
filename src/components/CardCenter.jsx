@@ -4,6 +4,9 @@ function CardCenter({ children, cols }) {
     case 2:
       colsGrid = 'grid-cols-card-2'
       break
+    case 3:
+      colsGrid = 'grid-cols-3'
+      break
     default:
       colsGrid = 'grid-cols-1'
       break

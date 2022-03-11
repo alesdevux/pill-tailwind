@@ -17,7 +17,7 @@ function SobreTailwind() {
             En el caso de Tailwind, se vasa en Utility-First
           </CardP>
         </div>
-        <CardImg src="src\assets\tailwind.png" alt="Tailwind" />
+        <CardImg src="src\assets\emojis\reto.png" alt="Tailwind" />
       </SlideCard>
       <SlideCard title="Utility-First" cols={2}>
         <div>

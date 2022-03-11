@@ -17,7 +17,7 @@ function Practica() {
             Es por eso que he preparado 3 retos.
           </CardP>
         </div>
-        <CardImg src="src\assets\emojis\reto.png" alt="unicornio con cara de desafio" />
+        <CardImg src="src\assets\emojis\cor.png" alt="unicornio con cara de amor" />
       </SlideCard>
       <SlideCard title="Nuevos retos para ti!">
         <CardP>
